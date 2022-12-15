@@ -1,0 +1,26 @@
+.container {
+    height: 200px;
+    width: 400px;
+    overflow: auto;
+    background-color: #1ce8b5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    font-size: 200px;
+    font-weight: 700;
+    color: #333;
+    text-shadow: -4px -2px 2px #dfdfdf;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+ }
+
+.content {
+    height: 220px;
+    text-align: center;
+    line-height: 200px;
+}
